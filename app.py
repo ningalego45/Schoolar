@@ -12,7 +12,7 @@ CORS(app, resources={
     r"/*": {
         "origins": [
             "http://localhost:5173",  # Development
-            "https://your-frontend-url.vercel.app"  # Production - Update this with your actual Vercel URL
+            "https://scholarmatch-e3nbuw7kn-arman-tiwaris-projects.vercel.app"  # Production - Update this with your actual Vercel URL
         ],
         "methods": ["GET", "POST", "OPTIONS"],
         "allow_headers": ["Content-Type", "Authorization"]
